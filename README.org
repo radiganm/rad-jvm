@@ -1,0 +1,6 @@
+#+TITLE: rad-jvm
+#+AUTHOR: Mac Radigan
+
+** Realtime  Algorithms for DSP (RAD) bindings for the JVM
+
+ # *EOF* 

@@ -1,0 +1,7 @@
+## Service Provider List for org.radigan.system.tools.AbstractTool
+## Copyright 2010 Mac Radigan
+## All Rights Reserved
+org.radigan.system.interpreter.ScriptTool
+#org.radigan.system.interpreter.ClojureTool
+org.radigan.system.test.TestTool
+## *EOF*
