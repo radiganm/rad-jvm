@@ -1,20 +1,18 @@
 // Command.groovy
 //
-// Copyright 2005 Mac Radigan
+// Copyright 2004 Mac Radigan
 // All Rights Reserved
 
   package org.radigan.system.tools
 
   import java.util.ServiceLoader
   import org.radigan.system.tools.AbstractTool
-  import org.radigan.system.configuration.Configuration
   import org.apache.log4j.Logger
 
   public class Command {
 
     public static void main(String[] args) {
       def log = Logger.getLogger(Command.class)
-      Configuration.getInstance()
       def providers = ServiceLoader.load(AbstractTool.class)
       if(args.size()) {
         try {

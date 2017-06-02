@@ -1,6 +1,6 @@
 // Command2.groovy
 //
-// Copyright 2005 Mac Radigan
+// Copyright 2004 Mac Radigan
 // All Rights Reserved
 
 package org.radigan.system.tools
